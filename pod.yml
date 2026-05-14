@@ -8,6 +8,6 @@ metadata:
 spec:
   containers::
     - name: nginx
-      image: quay.io/pandeysp/nginx:latest
+      image: quay.io/pandeysp/mywebapp
       ports:
         - containerPort: 80
